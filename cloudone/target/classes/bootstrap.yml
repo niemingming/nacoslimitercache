@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml # 即是文件类型，也是dataId的一部分，需要在bootstrap.yml中配置
+        prefix: cloudone
+      server-addr: localhost:8848
+      discovery:
+        server-addr: localhost:8848
