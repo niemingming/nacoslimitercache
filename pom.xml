@@ -13,6 +13,7 @@
         <module>cloudone</module>
         <module>guavaratelimiter</module>
         <module>sentinelstudy</module>
+        <module>CaheTest</module>
     </modules>
 
     <parent>
